@@ -675,18 +675,40 @@ video {
   clear: none;
 }
 
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
 .mx-20 {
   margin-left: 5rem;
   margin-right: 5rem;
 }
 
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mx-\[100px\] {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.mx-\[400px\] {
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.-mt-10 {
+  margin-top: -2.5rem;
+}
+
+.-mt-7 {
+  margin-top: -1.75rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mt-40 {
+  margin-top: 10rem;
 }
 
 .box-border {
@@ -788,12 +810,24 @@ video {
   display: none;
 }
 
-.h-\[100px\] {
-  height: 100px;
+.h-\[190px\] {
+  height: 190px;
+}
+
+.h-\[70px\] {
+  height: 70px;
 }
 
 .w-\[100px\] {
   width: 100px;
+}
+
+.w-\[300px\] {
+  width: 300px;
+}
+
+.w-\[620px\] {
+  width: 620px;
 }
 
 .flex-shrink {
@@ -1124,6 +1158,14 @@ video {
   grid-auto-flow: column dense;
 }
 
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -1312,8 +1354,8 @@ video {
   gap: 2.5rem;
 }
 
-.gap-8 {
-  gap: 2rem;
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -1696,6 +1738,10 @@ video {
   border-bottom-width: 1px;
 }
 
+.border-b-4 {
+  border-bottom-width: 4px;
+}
+
 .border-e {
   border-inline-end-width: 1px;
 }
@@ -1714,6 +1760,10 @@ video {
 
 .border-t {
   border-top-width: 1px;
+}
+
+.border-t-4 {
+  border-top-width: 4px;
 }
 
 .border-solid {
@@ -1740,9 +1790,34 @@ video {
   border-style: none;
 }
 
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.border-gray-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(229 231 235 / var(--tw-border-opacity));
+}
+
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-yellow-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 204 21 / var(--tw-bg-opacity));
 }
 
 .decoration-slice {
@@ -1855,8 +1930,17 @@ video {
      object-fit: scale-down;
 }
 
+.p-20 {
+  padding: 5rem;
+}
+
 .p-5 {
   padding: 1.25rem;
+}
+
+.py-\[300px\] {
+  padding-top: 300px;
+  padding-bottom: 300px;
 }
 
 .text-left {
@@ -1915,9 +1999,14 @@ video {
   vertical-align: super;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -1999,6 +2088,11 @@ video {
 .text-blue-500 {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
+.text-blue-800 {
+  --tw-text-opacity: 1;
+  color: rgb(30 64 175 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -2319,7 +2413,7 @@ video {
 }
 
 .hero-image {
-  background-image: url("https://www.kit.edu/img/Forschen/header_dossier%20studium_1920p.jpg");
+  background-image: url("https://www.gold.ac.uk/media/images-by-section/study/clearing-and-adjustment/clearing-2023/clearing-homepage-1-compressed.png");
   /* The image used */
   background-color: #cccccc;
   /* Used if the image is unavailable */

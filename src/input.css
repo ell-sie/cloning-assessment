@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.hero-image {
+    background-image: url("https://www.kit.edu/img/Forschen/header_dossier%20studium_1920p.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 600px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }

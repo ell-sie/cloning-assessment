@@ -707,8 +707,12 @@ video {
   margin-top: 0.5rem;
 }
 
-.mt-40 {
-  margin-top: 10rem;
+.-mt-\[400px\] {
+  margin-top: -400px;
+}
+
+.-mt-\[350px\] {
+  margin-top: -350px;
 }
 
 .box-border {
@@ -810,12 +814,36 @@ video {
   display: none;
 }
 
-.h-\[190px\] {
-  height: 190px;
+.h-\[200px\] {
+  height: 200px;
+}
+
+.h-\[300px\] {
+  height: 300px;
 }
 
 .h-\[70px\] {
   height: 70px;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[800\] {
+  height: 800;
+}
+
+.h-\[800px\] {
+  height: 800px;
+}
+
+.h-\[00px\] {
+  height: 00px;
+}
+
+.h-\[600px\] {
+  height: 600px;
 }
 
 .w-\[100px\] {
@@ -1356,6 +1384,14 @@ video {
 
 .gap-5 {
   gap: 1.25rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
